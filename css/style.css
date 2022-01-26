@@ -625,14 +625,15 @@ line-height: 1.5rem;
 .grid_info_map{
   margin: 1rem auto;
   display: grid;
+  height: 40vh;
   grid-template-columns: repeat(3,1fr);
 align-items: center;
 }
 
 .grid_info_map>button{
   display: block;
-  width: 30%;
-  height: 3rem;
+  width: 40%;
+  padding: 1rem;
   font-size: 1.3rem;
 border: none;
 cursor: pointer;
@@ -640,29 +641,39 @@ transition: all .3s;
 
   margin: 0 auto;
 }
+.grid_info_map>iframe{
+  display: block;
+  height: 100%;
+  width: 100%;
+}
 
 .grid_info_map>ul{
   list-style: none;
-  margin-left: 2rem;
+  margin: 2rem auto;
+  display: block;
+  width: 90%;
 }
 
 .grid_info_map>ul>li{
-  line-height: 2rem;
-  font-size: 1.2rem;
+  padding: 1rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
 .grid_info_map>ul>li>a{
+  line-height: 2rem;
   text-decoration: none;
+  
   color: black;
   font-weight: lighter;
 }
 .grid_info_map>ul>li>a:first-child{
   font-weight: bold;
+  padding-bottom: 1rem;
 }
 .grid_info_map>button:hover{
   display: block;
-  width: 35%;
+  width: 45%;
   height: 3.5rem;
   background-color: black;
   color: white;
@@ -675,23 +686,29 @@ cursor: pointer;
   display: none;
 }
 footer{
-
+  
   display: grid;
   grid-template-columns: repeat(4,1fr);
   width: 100%;
   text-align: center;
-  margin: 3rem auto;
+  margin: 3rem auto -3rem;
+  background-color: #eee;
 }
 
 footer>ul>li:first-child{
   padding-bottom: 1rem;
-  text-decoration: underline;
   font-size: 1.6rem;
 }
-
 footer>ul>li{
+  list-style: none;
+}
+
+footer>ul>li>a{
   text-transform: uppercase;
   list-style: none;
+  color: black;
   font: 1.2rem;
+  text-decoration: none;
   padding: .25rem;
+  line-height: 2.1rem;
 }
