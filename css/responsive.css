@@ -76,13 +76,13 @@ footer{
 }
 .banniere_d{
     display: block;
-    margin: 0.5rem auto ;
+    margin: 3.5rem auto ;
     height: 70vh;
     width: 100%;
     background-image: url(../asset/banniere_wallp.jpg);
     background-size: cover;
+    background-attachment: local;
     background-position: center center;
-    background-attachment: fixed;
 
 
 }
@@ -236,6 +236,7 @@ font-family: sans-serif;
     width: 205%;
     margin: 0 auto;
 }
+
 }
 
 
@@ -247,5 +248,21 @@ font-family: sans-serif;
     }
     .grid_atouts>li{
 padding: 1rem;    }
+
+header>.waterproof>p{
+    color: white;
+    font-size: 1rem;
+    padding: 1rem;
+    text-align: center;
+    line-height: 2rem;
+  }
+  header>.waterproof{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 12;
+    background-color: rgb(0, 0, 0);
+  }
 }
     
