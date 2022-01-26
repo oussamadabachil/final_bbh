@@ -38,7 +38,7 @@ var span_close ="</span>"
 
       var docada = document.getElementById("pab");
 
-      var colorrs = [span_text+'TWINGO BLEUE'+span_close+" (APPUYER POUR EN SAVOIR PLUS)",span_text+'UNE VOITURE À VENDRE'+span_close+" CETTE SEMAINE"];
+      var colorrs = [span_text+'TWINGO 2 - ANNÉE 2013'+span_close,span_text+" CLIQUEZ POUR DÉCOUVRIR"+span_close,span_text+'UNE VOITURE À VENDRE'+span_close+" CETTE SEMAINE"];
       docada.innerHTML = colorrs[iazaz];
       iazaz = (iazaz + 1) % colorrs.length;
     }
