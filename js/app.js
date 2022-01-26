@@ -11,11 +11,12 @@ for(let i=0; i<marqueeElementsDisplayed; i++) {
 
 let menu_Butt = document.querySelector(".second_s")
 let menu_Show = document.querySelector(".mobile_menu_hide")
-
+let body_js = document.querySelector(".body")
 
 
 menu_Butt.addEventListener("click",()=>{
   menu_Show.classList.toggle("mobile_menu_show")
+  body_js.classList.toggle("body_pause")
 })
 
 var iazaz = 0;
@@ -72,3 +73,7 @@ img_caracteristique.addEventListener("click",()=>{
   car_caract.style.display="block"
   imgface.style.display="none"
 })
+
+
+
+

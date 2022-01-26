@@ -199,6 +199,13 @@ header .desktop_menu ul li:hover{
     font-size: 1.3rem;
     line-height: 3rem;
 }
+.body{
+  overflow: scroll;
+
+}
+.body_pause{
+  overflow-y: hidden;
+}
 .relative_groud{
     position: relative;
     display: block;
@@ -712,3 +719,63 @@ footer>ul>li>a{
   padding: .25rem;
   line-height: 2.1rem;
 }
+
+
+
+
+.grid_call_mail{
+  width:90%;
+  height: 4rem;
+  position: fixed;
+  bottom: 4%;
+  left: 50%;
+  transform: translate(-50%,-4%);
+  background-color: rgb(0, 0, 0);
+  border-radius: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  display: none;
+  margin: 0 auto;
+  z-index: 100;
+
+}
+
+.grid_call_mail>a{
+
+  color: white;
+  font-size: .7rem;
+  width: 100%;
+  text-align: center;
+  padding-top: .8rem;
+  text-decoration: none;
+  grid-template-columns: repeat(2,1fr);
+}
+
+
+.grid_call_mail>.devis_a_btn:before{
+  background-image: url(../assets/ico_mail.png);
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 1rem;
+  width: 2.2rem;
+  height: 2.3rem;
+  content: "";
+  border: .1rem solid #fdf4e9;
+  border-radius: 100%;       
+  vertical-align: middle;
+}
+.grid_call_mail>.devis_b_btn::before{
+  background-image: url(../assets/logo_phone.png);
+  background-position: center center;
+  background-size: contain;
+  display: inline-block;
+  margin-right: 1rem;
+  width: 2.2rem;
+  height: 2.3rem;
+  content: "";
+  border: .1rem solid #fdf4e9;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
