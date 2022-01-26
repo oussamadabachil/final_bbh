@@ -9,6 +9,13 @@
         transition: all .3s;
 
     }
+    .avis_clients{
+        position: relative;
+        width: 80%;
+          height: 5rem;
+          margin: 0 auto;
+          background-color: #eee;
+      }
 
 details[open] summary {
     transition: all .3s;
