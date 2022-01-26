@@ -13,10 +13,18 @@ let menu_Butt = document.querySelector(".second_s")
 let menu_Show = document.querySelector(".mobile_menu_hide")
 let body_js = document.querySelector(".body")
 
-
+var counter = 1;
 menu_Butt.addEventListener("click",()=>{
-  menu_Show.classList.toggle("mobile_menu_show")
-  body_js.classList.toggle("body_pause")
+  counter +=1
+
+  if(counter%2==0){
+    menu_Show.classList.toggle("mobile_menu_show")
+    body_js.setAttribute("style","overflow-y:hidden")
+  }else{
+    menu_Show.classList.toggle("mobile_menu_show")
+    body_js.setAttribute("style","overflow:scroll")
+  }
+
 })
 
 var iazaz = 0;
@@ -57,7 +65,7 @@ info_header_text.addEventListener("click",()=>{
 
 
   img_arriere_butt.addEventListener('click',()=>{
-    imgface.setAttribute("style","    background-image: url(../asset/photoderriere.JPG); display:block  ")
+    imgface.setAttribute("style","background-image: url(./asset/photoderriere.JPG); display:block")
     car_caract.style.display="none"
 
   })

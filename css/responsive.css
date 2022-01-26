@@ -2,8 +2,9 @@
 
 
     .grid_call_mail{
+        align-items: center;
         width:90%;
-        height: 4rem;
+        height: 5rem;
         position: fixed;
         bottom: 4%;
         left: 50%;
@@ -18,11 +19,11 @@
     }
     
     .grid_call_mail>a{
+        padding-bottom: .9rem;
         color: white;
-        font-size: .7rem;
+        font-size: 1.1rem;
         width: 100%;
         text-align: center;
-        padding-top: .8rem;
         text-decoration: none;
         grid-template-columns: repeat(2,1fr);
     }
