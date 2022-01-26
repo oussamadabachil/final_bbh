@@ -3,11 +3,9 @@
 }
 
 footer{
-    width: 100%;
-bottom: 0;
     border-top: .1rem solid black;
     background-color: white;
-    position: absolute;
+    position: relative;
 }
 footer>section{
     border-top: .1rem solid black;
