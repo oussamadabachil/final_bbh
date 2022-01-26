@@ -9,6 +9,12 @@
         transition: all .3s;
 
     }
+
+    .aproposimg_mobile{
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+      }
     .avis_clients{
         position: relative;
         width: 80%;
@@ -17,6 +23,11 @@
           background-color: #eee;
       }
 
+      .aproposimg{
+        display: none;
+        width:90%;
+        margin: 0 auto;
+      }
 details[open] summary {
     transition: all .3s;
   }
@@ -110,7 +121,7 @@ details[open] summary {
         display: none;
     }
     .grid{
-        display: grid;
+        display: none;
         grid-template-columns: repeat(1,1fr);
 
     }

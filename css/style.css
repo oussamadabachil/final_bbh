@@ -9,12 +9,21 @@ body{
 .mobile_menu_hide{
   display: none;
 }
+.aproposimg_mobile{
+  display: none;
+}
+
 header>.waterproof>p{
   color: white;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   padding: 1rem;
   text-align: center;
   line-height: 2rem;
+}
+.aproposimg{
+  display: block;
+  width:90%;
+  margin: 0 auto;
 }
 header>.waterproof{
   cursor: pointer;
@@ -259,7 +268,7 @@ width: 100%;
     background-color: rgb(246, 246, 246);
     margin: 0 auto;
     width: 90%;
-    display: grid;
+    display: none;
     grid-template-columns: repeat(2,1fr);
 }
 
