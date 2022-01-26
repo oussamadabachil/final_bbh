@@ -1,3 +1,23 @@
 .contactV{
     margin: 10rem auto;
 }
+
+footer{
+    width: 100%;
+bottom: 0;
+    border-top: .1rem solid black;
+    background-color: white;
+    position: absolute;
+}
+footer>section{
+    border-top: .1rem solid black;
+
+}
+
+footer>img{
+    width: 23%;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}

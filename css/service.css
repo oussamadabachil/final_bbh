@@ -154,3 +154,21 @@
 
     line-height: 2rem;
 }
+
+footer{
+    border-top: .1rem solid black;
+    background-color: white;
+    position: relative;
+}
+footer>section{
+    border-top: .1rem solid black;
+
+}
+
+footer>img{
+    width: 23%;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}

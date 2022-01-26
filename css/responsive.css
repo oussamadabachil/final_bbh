@@ -1,4 +1,12 @@
 @media (max-width: 1000px) {
+    .desk{
+        display: none;
+    }
+    .mobile{
+        display: block;
+        width: 100%;
+        
+    }
     .pc_grid_renault{
         display: none;
         width: 100%;
@@ -399,26 +407,28 @@ header>.waterproof>p{
     background-color: rgb(88, 164,61);
 
   }
+
+
+
 }
     
-@media (max-width: 470px) {
-
+@media (max-width: 530px) {
     .relative_groud{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-    }
-.relative_groud>div{
-    position: static;
-    display: block;
-    width: auto;
-    height: auto;
-    top: 0rem;
-    right: 1rem;
-    background-color: rgba(196, 193, 193, 0.746);
-}
-.relative_groud>img{
-    display: block;
-    width: 100%;
-}
-
+      }
+      .relative_groud>div{
+      position: static;
+      display: block;
+      width: auto;
+      height: auto;
+      top: 0rem;
+      right: 1rem;
+      background-color: rgba(173, 194, 82, 0.39);
+      }
+      .relative_groud>img{
+      display: block;
+      width: 100%;
+      }
+ 
 }

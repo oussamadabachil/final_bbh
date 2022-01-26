@@ -52,4 +52,28 @@ section h1{
     background-color:rgb(0, 0, 0) ;
 
 }
+footer>section{
+    position: absolute;
+    width: 100%;
+    background-color: #eee;
 
+    bottom: 0;
+}
+
+footer{
+    border-top: .1rem solid black;
+    background-color: white;
+    position: relative;
+}
+footer>section{
+    border-top: .1rem solid black;
+
+}
+
+footer>img{
+    width: 23%;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+}

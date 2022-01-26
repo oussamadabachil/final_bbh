@@ -233,7 +233,7 @@ header .desktop_menu ul li:hover{
 .body_pause{
   overflow-y: hidden;
 }
-/*
+
 .relative_groud{
     position: relative;
     display: block;
@@ -255,25 +255,8 @@ header .desktop_menu ul li:hover{
     right: -6rem;
     background-color: rgba(228, 227, 227, 0.746);
 }
+/*
 */
-
-.relative_groud{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-}
-.relative_groud>div{
-position: static;
-display: block;
-width: auto;
-height: auto;
-top: 0rem;
-right: 1rem;
-background-color: rgba(157, 184, 173, 0.534);
-}
-.relative_groud>img{
-display: block;
-width: 100%;
-}
 .grid{
     background-color: rgb(246, 246, 246);
     margin: 0 auto;
@@ -747,6 +730,7 @@ cursor: pointer;
 
 }
 footer{
+  position: relative;
   background-color: #eee;
 }
 
@@ -781,8 +765,18 @@ footer>section>ul>li>a{
   line-height: 2.1rem;
 }
 
+footer>img{
+  width: 20%;
+  left: 40%;
+  bottom: 0;
+  position: absolute;
 
+}
 
+main>img{
+  display: block;
+  width: 100%;
+}
 
 .grid_call_mail{
   width:90%;
@@ -843,3 +837,11 @@ footer>section>ul>li>a{
 
 
 
+.mobile{
+  display: none;
+}
+.desk{
+  display: block;
+  width: 100%;
+  
+}
