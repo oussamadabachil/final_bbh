@@ -17,6 +17,7 @@ header>.waterproof>p{
   line-height: 2rem;
 }
 header>.waterproof{
+  cursor: pointer;
   position: fixed;
   top: 0;
   left: 0;
@@ -47,11 +48,11 @@ header .desktop_menu ul{
 .show_car_info{
   z-index: 20;
   display: none;
-  width: 50%;
+  width: 80%;
   position: fixed;
   top: 50%;
   left: 50%;
-  height: 35rem;
+  height: 45rem;
   transform: translate(-50%,-50%);
   background-color: rgb(255, 255, 255);
 }
@@ -59,11 +60,11 @@ header .desktop_menu ul{
 .show_car_info_show{
   z-index: 20;
   display: block;
-  width: 50%;
+  width: 50rem;
   position: fixed;
   top: 50%;
   left: 50%;
-  height: 35rem;
+  height: 45rem;
   transform: translate(-50%,-50%);
   background-color: rgb(255, 255, 255);
 }
@@ -145,7 +146,8 @@ grid-gap: .5rem;
 
 header .desktop_menu ul li a img{
   display: block;
-  width: 8rem;
+  width: 7.5rem;
+  margin-top: .5rem;
 }
 header .desktop_menu ul li{
     font-family: sans-serif;
@@ -177,11 +179,14 @@ header .desktop_menu ul li:hover{
 .banniere_d{
     display: block;
     margin: 3.5rem auto ;
-    height: 70vh;
+    height: 90vh;
+   /*background-color: rgb(254, 190, 72);*/
+    /*background-color: rgb(88, 164, 61);*/
     width: 100%;
-    background-image: url(../asset/banniere_wallp.jpg);
-    background-size: cover;
-    background-position: center center;
+    background-image: url(../asset/meganrs_yellow.jpeg);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center top;
     background-attachment: fixed;
 
 
@@ -215,7 +220,7 @@ header .desktop_menu ul li:hover{
 }
 .relative_groud>img{
     display: block;
-    width: 40%;
+    width: 45%;
     margin-left: 20%;
 }
 
@@ -223,8 +228,8 @@ header .desktop_menu ul li:hover{
     position: absolute;
     width: auto;
     height: auto;
-    top: 5rem;
-    right: 1rem;
+    top: 7rem;
+    right: -6rem;
     background-color: rgba(228, 227, 227, 0.746);
 }
 
@@ -321,23 +326,28 @@ list-style: none;
     grid-template-columns: repeat(3,1fr);
     margin: -2rem auto 2rem;
 }
-
+.retrouver{
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+}
 .flip-card {
     background-color: transparent;
     width: 100%;
     height: 25rem;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
   }
-  .flip-card-back>p{
+  .flip-card-back>ul>li{
 
     font-family: sans-serif;
   overflow-y: auto;
-font-size: 2rem;  
+  list-style: circle !important;
+font-size: 1.6rem;  
 width: 90%;
-text-align: center;
+text-align: left;
 line-height: 3rem;
 display: block;
-margin: 2rem auto;
+margin: 1rem auto;
 }
   /* This container is needed to position the front and back side */
   .flip-card-inner {
@@ -435,12 +445,13 @@ margin: 2rem auto;
   .compteur{
     background-image: url(../asset/compteur.jpg);
     background-size:cover;
-    background-position: top -20rem center;
+    background-position: top -6rem center;
   }
 
   .keycart{
     background-image: url(../asset/key_cart.jpg);
     background-size:cover;
+    
     
   }
 
@@ -453,7 +464,7 @@ margin: 2rem auto;
 .compteur_b{
   background-image: url(../asset/compteur_b.jpg);
   background-size:cover;
-  background-position: top -20rem center;
+  background-position: top -6rem center;
 }
 
 .keycart_b{
@@ -691,26 +702,35 @@ cursor: pointer;
 }
 .menu_mobile{
   display: none;
+
+
 }
 footer{
-  
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-  width: 100%;
-  text-align: center;
-  margin: 3rem auto -3rem;
   background-color: #eee;
 }
 
-footer>ul>li:first-child{
+footer>section>ul{
+  margin-left: 5vw;
+}
+footer>section{
+  
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 80%;
+  text-align: center;
+  margin: 3rem auto -3rem;
+}
+ footer>section>ul>li:first-child{
   padding-bottom: 1rem;
+  padding-top: 1rem;
   font-size: 1.6rem;
 }
-footer>ul>li{
+footer>section>ul>li{
+  text-align: left;
   list-style: none;
 }
 
-footer>ul>li>a{
+footer>section>ul>li>a{
   text-transform: uppercase;
   list-style: none;
   color: black;
