@@ -1,13 +1,23 @@
 
 let menu_Butt = document.querySelector(".second_s")
 let menu_Show = document.querySelector(".mobile_menu_hide")
+let body_js = document.querySelector(".body")
 
 
 
+var counter = 1;
 menu_Butt.addEventListener("click",()=>{
-  menu_Show.classList.toggle("mobile_menu_show")
-})
+  counter +=1
 
+  if(counter%2==0){
+    menu_Show.classList.toggle("mobile_menu_show")
+    body_js.setAttribute("style","overflow-y:hidden")
+  }else{
+    menu_Show.classList.toggle("mobile_menu_show")
+    body_js.setAttribute("style","overflow:scroll")
+  }
+
+})
 var iazaz = 0;
 
 

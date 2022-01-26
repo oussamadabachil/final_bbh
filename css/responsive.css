@@ -1,9 +1,15 @@
 @media (max-width: 1000px) {
+    .pc_grid_renault{
+        display: none;
+        width: 100%;
+        margin: 0 auto;
+      }
     summary{
         font-size: 1.7rem;
         width: 100%;
         text-align: center;
-        border-bottom: .05rem solid rgba(97, 95, 95, 0.548);
+        border-top: .05rem solid  rgb(88, 164,61);
+        background-color: rgb(255, 255, 255);
         display: block;
         line-height: 4rem;
         transition: all .3s;
@@ -22,6 +28,10 @@
           margin: 0 auto;
           background-color: #eee;
       }
+     .mobile_grid_renault{
+         display: block;
+         width: 100%;
+     }
 
       .aproposimg{
         display: none;
@@ -258,7 +268,7 @@ width: 100%;
     position: fixed;
 height: 100vh;
 z-index: 13;
-background-color: rgb(165, 160, 160);
+background-color: rgb(255, 255, 255);
 width: 100%;
 }
 
@@ -284,7 +294,7 @@ width: 100%;
     white-space: nowrap;
     font-size: 2.6rem;
     text-decoration: none;
-    color: white;
+    color: rgb(88, 164,61);
     line-height: 9vh;
     transition: all .3s;
 
@@ -294,9 +304,9 @@ width: 100%;
 /*SERVICES*/
 .banniere_service{
     z-index: 3;
-    background-image: url(../asset/renault_banniere_switch.jpg);
+    background-image: url(../asset/renaultbalck.webp);
     background-size: cover;
-    background-position: center center;
+    background-position: center left -7rem;
     width: 100%;
     position: relative;
     height: 90vh;
@@ -386,7 +396,8 @@ header>.waterproof>p{
     left: 0;
     width: 100%;
     z-index: 12;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(88, 164,61);
+
   }
 }
     
