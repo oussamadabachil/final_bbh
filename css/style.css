@@ -176,6 +176,9 @@ header .desktop_menu ul li:hover{
     transition: all .3s;
     color: black;
 }
+.section_summary{
+  display: none;
+}
 .banniere_d{
     display: block;
     margin: 3.5rem auto ;
